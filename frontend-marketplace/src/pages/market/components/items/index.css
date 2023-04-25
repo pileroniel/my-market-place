@@ -1,0 +1,24 @@
+.overlay{
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, .7);
+    backdrop-filter: blur('');
+    z-index: 10;
+
+}
+
+.overlay .enlarge{
+    z-index: 10;
+    box-shadow: 0 0 18px 0px rgba(0,0,0, .75);
+
+}
+.before-click{
+    z-index: 1;
+
+}
+
+.hide{
+    display: none;
+}
